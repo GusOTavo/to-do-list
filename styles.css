@@ -8,9 +8,12 @@
 }
 
 body {
+  background-color: whitesmoke;
+}
+
+main {
   display: flex;
   justify-content: center;
-  background-color: whitesmoke;
 }
 
 .lista {
@@ -81,12 +84,11 @@ ul {
 }
 
 .rodape {
-  display: block;
   text-align: center;
-  margin-top: 2em:
+  margin-top: 2em;
   font-size: 1.75em;
   color: #000000;
-  padding: 0.2em;
+  padding: 0.5em;
 }
 
 /* JAVASCRIPT */
