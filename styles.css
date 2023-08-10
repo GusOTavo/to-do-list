@@ -117,11 +117,12 @@ li {
 }
 
 .rodape {
+  display: block;
   text-align: center;
-    margin-top: 2em:
-    font-size: 1.75em;
-    color: #000000;
-    padding: 0.2em;
+  margin-top: 2em:
+  font-size: 1.75em;
+  color: #000000;
+  padding: 0.2em;
 }
 
 /* RESPONSIVIDADE */
