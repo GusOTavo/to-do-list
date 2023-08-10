@@ -78,7 +78,16 @@ ul {
     display: flex;
     flex-direction: column-reverse;
     margin-bottom: 20px;
-}  
+}
+
+.rodape {
+  display: block;
+  text-align: center;
+  margin-top: 2em:
+  font-size: 1.75em;
+  color: #000000;
+  padding: 0.2em;
+}
 
 /* JAVASCRIPT */
 
@@ -114,15 +123,6 @@ li {
 
 .line-through {
   text-decoration: line-through;
-}
-
-.rodape {
-  display: block;
-  text-align: center;
-  margin-top: 2em:
-  font-size: 1.75em;
-  color: #000000;
-  padding: 0.2em;
 }
 
 /* RESPONSIVIDADE */
