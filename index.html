@@ -5,30 +5,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="/styles.css" media="screen">
-    <link rel="shortcut icon" href="/img/favicon.ico">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>ToDo__List</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css" media="screen">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body>
-    <div class="lista">
-        <div class="lista__cabecalho">
-            <h1>Lista de Tarefas</h1>
-            <button><i class="bx bxs-trash-alt"></i></button>
+    <main>
+        <div class="lista">
+            <div class="lista__cabecalho">
+                <h1>Lista de Tarefas</h1>
+                <button><i class="bx bxs-trash-alt"></i></button>
+            </div>
+            <hr />
+            <br />
+            <div class="lista__inserir">
+                <input class="lista__inserir__texto" type="text">
+                <button><i class='bx bx-plus'></i></button>
+            </div>
+            <ul></ul>
         </div>
-        <hr />
-        <br />
-        <div class="lista__inserir">
-            <input class="lista__inserir__texto" type="text">
-            <button><i class='bx bx-plus'></i></button>
-        </div>
-        <ul></ul>
-    </div>
+    </main>
 
     <footer class="rodape">Desenvolvido por Gustavo Henrique L. M. de Sousa</footer>
 
-    <script src="/js/main.js"></script>
+    <script src="./index.js"></script>
 </body>
 
 </html>
